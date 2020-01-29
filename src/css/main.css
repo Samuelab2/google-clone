@@ -30,10 +30,15 @@ a {
   font-weight: bold;
 }
 
+.header_navbar ul li img {
+  display: flex;
+}
+
 .profile_photo {
-  background-color: lightslategray;
-  width: 40px;
-  height: 40px;
+  background: url(https://lh3.googleusercontent.com/-MJxC0TVO_pM/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rf-uoltUMxL65bLWtv3A95wJh9B5A.CMID/s32-c/photo.jpg);
+  background-position: center;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
 }
 .main {
