@@ -15,10 +15,11 @@ body {
   justify-content: flex-end;
 }
 
-.header_navbar {
+.header_navbar ul {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  list-style: none;
   width: 250px;
   margin-right: 10px;
 }
