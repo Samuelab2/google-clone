@@ -26,7 +26,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: grey;
   font-weight: bold;
 }
 
@@ -62,11 +62,43 @@ a {
   width: 340px;
 }
 
-.main_container input {
+.main_searchBar {
+  display: flex;
   width: 100%;
-  height: 30px;
-  border-radius: 10px;
+  height: 50px;
+  border-radius: 40px;
   border: solid lightgrey 1px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main_searchBar span {
+  background: url("https://www.pinclipart.com/picdir/middle/4-45027_vector-search-icon-search-icon-vector-png-clipart.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+.main_searchBar input {
+  border: none;
+  width: 80%;
+  height: 100%;
+}
+
+.main_searchBar input:focus {
+  outline: none;
+}
+
+.main_searchBar:hover {
+  box-shadow: 0px 0px 10px 1px rgba(148, 148, 148, 0.46);
+  cursor: pointer;
+}
+
+.main_searchBar a {
+  background: url("http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
 }
 
 .main_buttons {
@@ -81,6 +113,10 @@ a {
   border-radius: 5px;
   height: 40px;
   width: 200px;
+}
+
+.main_buttons button:hover {
+  border: 1px solid lightslategray;
 }
 
 .footer {
