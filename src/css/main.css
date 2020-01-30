@@ -20,7 +20,7 @@ body {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  width: 250px;
+  width: 190px;
   margin-right: 10px;
 }
 
@@ -128,6 +128,11 @@ a {
   height: 60px;
 }
 
-.footer a {
+.footer ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer li {
   margin: 0 10px;
 }
